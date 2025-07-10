@@ -21,6 +21,7 @@ dependencies = [
     "loguru",
     "pandas>=2.3.0",
     "pip",
+    "pyarrow>=17.0.0",
     "python-dotenv",
     "ruff",
     "scikit-learn>=1.7.0",
