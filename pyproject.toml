@@ -16,9 +16,13 @@ classifiers = [
     
 ]
 dependencies = [
+    "catboost>=1.2.8",
+    "dagshub>=0.5.10",
     "feast>=0.50.0",
     "jupyterlab>=4.4.4",
+    "lightgbm>=4.6.0",
     "loguru",
+    "mlflow<3.0.0",
     "pandas>=2.3.0",
     "pip",
     "pyarrow>=17.0.0",
@@ -27,6 +31,7 @@ dependencies = [
     "scikit-learn>=1.7.0",
     "tqdm",
     "typer",
+    "xgboost>=3.0.2",
 ]
 requires-python = "~=3.12.0"
 
